@@ -64,3 +64,10 @@ javascript:alert(document.cookie)
 <h1>Testing TG</h1>
 ```
 
+#alert in window 
+
+    Add-Type -AssemblyName PresentationCore,PresentationFramework
+
+`for alert`
+
+    [System.Windows.MessageBox]::Show($Messageboxbody,$MessageboxTitle,$ButtonType,$messageicon)
