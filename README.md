@@ -9,6 +9,3 @@ __________________________________________________
     Programmer
 
 -------------------------------------------------
-
-username : username 
-pasword: superscretepassword
