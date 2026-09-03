@@ -8,7 +8,6 @@
 
 ```text
 role        : Senior Consultant — VAPT & Red Team Operations
-employer    : Deloitte
 focus       : Web · API · Mobile · Thick Client · Cloud · Active Directory
 approach    : Full MITRE ATT&CK kill-chain
 bug bounty  : 40+ organizations secured via responsible disclosure
@@ -25,14 +24,6 @@ certs       : OSCP+ · CRTP · CRTA · eJPT · CAP · Certified AI Security & Go
 
 <p align="center">
   <b>Burp Suite</b> · <b>Caido</b> · <b>Nmap</b> · <b>Nuclei</b> · <b>sqlmap</b> · <b>ffuf</b> · <b>Metasploit</b> · <b>Hydra</b> · <b>Hashcat</b> · <b>BloodHound</b> · <b>Mimikatz</b> · <b>Wireshark</b>
-</p>
-
----
-
-### Activity
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=prakashchand72&theme=black-ice&hide_border=true" />
 </p>
 
 ---
@@ -55,5 +46,4 @@ certs       : OSCP+ · CRTP · CRTA · eJPT · CAP · Certified AI Security & Go
   <a href="https://www.linkedin.com/in/prakashchand72"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://twitter.com/prakashchand72"><img alt="X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
   <a href="https://astute72.vercel.app/"><img alt="Website" src="https://img.shields.io/badge/Website-astute72-2F81F7?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <img alt="profile views" src="https://komarev.com/ghpvc/?username=prakashchand72" />
 </p>
