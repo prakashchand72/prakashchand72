@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  <img src="https://img.shields.io/badge/SYS.OPERATOR-PRAKASH%20CHAND%20THAKURI-0AFF9D?style=flat&labelColor=0b0d12&color=0AFF9D&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMwQUZGOUQiIHN0cm9rZS13aWR0aD0iMiI+PHBvbHlsaW5lIHBvaW50cz0iMTYgMTggMjIgMTIgMTYgNiIvPjxwb2x5bGluZSBwb2ludHM9IjggNiAyIDEyIDggMTgiLz48L3N2Zz4%3D" />
+  <img src="https://img.shields.io/badge/SYS.OPERATOR-PRAKASH%20CHAND%20THAKURI-0AFF9D?style=flat&labelColor=0b0d12&color=0AFF9D />
 </h1>
 
 <p align="center">
