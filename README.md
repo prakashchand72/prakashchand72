@@ -24,24 +24,7 @@ certs       : OSCP+ · CRTP · CRTA · eJPT · CAP · Certified AI Security & Go
 </p>
 
 <p align="center">
-  Burp Suite · Caido · Nmap · Nuclei · sqlmap · ffuf · Metasploit · Hydra · Hashcat · BloodHound · Mimikatz · Wireshark
-</p>
-
----
-
-### Telemetry
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=prakashchand72&show_icons=true&theme=vue-dark&hide_border=true&count_private=true&include_all_commits=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prakashchand72&layout=compact&theme=vue-dark&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=prakashchand72&theme=black-ice&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=prakashchand72&theme=react-dark&hide_border=true" width="95%" />
+  <b>Burp Suite</b> · <b>Caido</b> · <b>Nmap</b> · <b>Nuclei</b> · <b>sqlmap</b> · <b>ffuf</b> · <b>Metasploit</b> · <b>Hydra</b> · <b>Hashcat</b> · <b>BloodHound</b> · <b>Mimikatz</b> · <b>Wireshark</b>
 </p>
 
 ---
@@ -64,4 +47,5 @@ certs       : OSCP+ · CRTP · CRTA · eJPT · CAP · Certified AI Security & Go
   <a href="https://www.linkedin.com/in/prakashchand72"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://twitter.com/prakashchand72"><img alt="X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
   <a href="https://astute72.vercel.app/"><img alt="Website" src="https://img.shields.io/badge/Website-astute72-2F81F7?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <img alt="profile views" src="https://komarev.com/ghpvc/?username=prakashchand72" />
 </p>
