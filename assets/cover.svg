@@ -1,55 +1,73 @@
 <svg width="1280" height="360" viewBox="0 0 1280 360" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#04060b"/>
-      <stop offset="0.55" stop-color="#070b14"/>
-      <stop offset="1" stop-color="#04120f"/>
+      <stop offset="0" stop-color="#03050a"/>
+      <stop offset="0.5" stop-color="#060a13"/>
+      <stop offset="1" stop-color="#02110c"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#0aff9d"/>
+      <stop offset="0.55" stop-color="#6ef7d0"/>
       <stop offset="1" stop-color="#2f81f7"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.82" cy="0.15" r="0.45">
-      <stop offset="0" stop-color="#0aff9d" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#0aff9d" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
   </defs>
 
   <rect width="1280" height="360" fill="url(#bg)"/>
-  <rect width="1280" height="360" fill="url(#glow)"/>
 
-  <!-- grid -->
-  <g stroke="#1a2233" stroke-width="1" opacity="0.6">
-    <path d="M0 60 H1280 M0 120 H1280 M0 180 H1280 M0 240 H1280 M0 300 H1280"/>
-    <path d="M90 0 V360 M240 0 V360 M390 0 V360 M540 0 V360 M690 0 V360 M840 0 V360 M990 0 V360 M1140 0 V360"/>
+  <!-- upper grid -->
+  <g stroke="#16203a" stroke-width="1">
+    <path d="M0 56 H1280 M0 112 H1280 M0 168 H1280"/>
+    <path d="M80 0 V200 M200 0 V200 M320 0 V200 M440 0 V200 M560 0 V200 M680 0 V200 M800 0 V200 M920 0 V200 M1040 0 V200 M1160 0 V200"/>
   </g>
 
-  <line x1="60" y1="316" x2="1220" y2="316" stroke="#1c2436" stroke-width="1"/>
-  <line x1="60" y1="312" x2="540" y2="312" stroke="url(#accent)" stroke-width="2"/>
+  <!-- perspective floor -->
+  <g opacity="0.9">
+    <rect y="232" width="1280" height="128" fill="#04070d"/>
+    <g stroke="#0aff9d" stroke-width="1" opacity="0.16">
+      <line x1="0" y1="360" x2="380" y2="232"/>
+      <line x1="80" y1="360" x2="430" y2="232"/>
+      <line x1="160" y1="360" x2="480" y2="232"/>
+      <line x1="240" y1="360" x2="530" y2="232"/>
+      <line x1="320" y1="360" x2="580" y2="232"/>
+      <line x1="960" y1="360" x2="820" y2="232"/>
+      <line x1="1040" y1="360" x2="870" y2="232"/>
+      <line x1="1120" y1="360" x2="920" y2="232"/>
+      <line x1="1200" y1="360" x2="970" y2="232"/>
+      <line x1="1280" y1="360" x2="1020" y2="232"/>
+    </g>
+    <line x1="0" y1="232" x2="1280" y2="232" stroke="#1b2a3a" stroke-width="1"/>
+  </g>
 
-  <text x="70" y="120" font-family="'Courier New', Courier, monospace" font-size="22" fill="#2f81f7">&gt;</text>
-  <text x="104" y="120" font-family="'Courier New', Courier, monospace" font-size="22" fill="#0aff9d">PRINTF("HI, I AM")</text>
+  <!-- scanlines -->
+  <rect width="1280" height="360" fill="url(#scan)"/>
+  <g stroke="#000000" stroke-width="1" opacity="0.12">
+    <path d="M0 4 H1280 M0 12 H1280 M0 20 H1280 M0 28 H1280 M0 36 H1280 M0 44 H1280 M0 52 H1280 M0 60 H1280 M0 68 H1280 M0 76 H1280 M0 84 H1280 M0 92 H1280 M0 100 H1280"/>
+  </g>
 
-  <text x="70" y="200" font-family="'Courier New', Courier, monospace" font-weight="bold" font-size="54" fill="#e6edf3">PRAKASH CHAND THAKURI</text>
+  <!-- prompt -->
+  <text x="70" y="104" font-family="'Courier New', Courier, monospace" font-size="20" fill="#2f81f7">&gt;_</text>
+  <text x="108" y="104" font-family="'Courier New', Courier, monospace" font-size="20" fill="#0aff9d">$ whoami --offensive</text>
 
-  <text x="70" y="245" font-family="'Courier New', Courier, monospace" font-size="26" fill="#8b98a9">Offensive Security  ·  VAPT &amp; Red Team  ·  Active Directory</text>
+  <!-- name -->
+  <text x="66" y="166" font-family="'Courier New', Courier, monospace" font-weight="bold" font-size="56" fill="#0a0f1c" stroke="#0aff9d" stroke-opacity="0.55">PRAKASH CHAND THAKURI</text>
+  <text x="70" y="166" font-family="'Courier New', Courier, monospace" font-weight="bold" font-size="56" fill="url(#title)">PRAKASH CHAND THAKURI</text>
 
-  <!-- chips -->
+  <text x="72" y="205" font-family="'Courier New', Courier, monospace" font-size="24" fill="#8b98a9">Offensive Security  ·  VAPT &amp; Red Team  ·  Active Directory</text>
+
+  <!-- cert chips -->
   <g font-family="'Courier New', Courier, monospace" font-size="16">
-    <rect x="70" y="272" width="92" height="30" rx="6" fill="#0aff9d" opacity="0.12" stroke="#0aff9d" stroke-width="1"/>
-    <text x="84" y="292" fill="#0aff9d">OSCP+</text>
-    <rect x="176" y="272" width="86" height="30" rx="6" fill="#2f81f7" opacity="0.12" stroke="#2f81f7" stroke-width="1"/>
-    <text x="190" y="292" fill="#79b8ff">CRTP</text>
-    <rect x="276" y="272" width="86" height="30" rx="6" fill="#2f81f7" opacity="0.12" stroke="#2f81f7" stroke-width="1"/>
-    <text x="290" y="292" fill="#79b8ff">CRTA</text>
-    <rect x="376" y="272" width="74" height="30" rx="6" fill="#8b98a9" opacity="0.12" stroke="#8b98a9" stroke-width="1"/>
-    <text x="390" y="292" fill="#cdd5df">eJPT</text>
-    <rect x="464" y="272" width="66" height="30" rx="6" fill="#8b98a9" opacity="0.12" stroke="#8b98a9" stroke-width="1"/>
-    <text x="478" y="292" fill="#cdd5df">CAP</text>
-    <rect x="544" y="272" width="128" height="30" rx="6" fill="#8b98a9" opacity="0.12" stroke="#8b98a9" stroke-width="1"/>
-    <text x="558" y="292" fill="#cdd5df">RED TEAM</text>
+    <g><rect x="70" y="262" width="120" height="30" rx="6" fill="#0aff9d" fill-opacity="0.1" stroke="#0aff9d" stroke-width="1"/><text x="86" y="282" fill="#0aff9d">OSCP+</text></g>
+    <g><rect x="204" y="262" width="92" height="30" rx="6" fill="#2f81f7" fill-opacity="0.12" stroke="#2f81f7" stroke-width="1"/><text x="220" y="282" fill="#79b8ff">CRTP</text></g>
+    <g><rect x="310" y="262" width="92" height="30" rx="6" fill="#2f81f7" fill-opacity="0.12" stroke="#2f81f7" stroke-width="1"/><text x="326" y="282" fill="#79b8ff">CRTA</text></g>
+    <g><rect x="416" y="262" width="82" height="30" rx="6" fill="#8b98a9" fill-opacity="0.12" stroke="#8b98a9" stroke-width="1"/><text x="432" y="282" fill="#cdd5df">eJPT</text></g>
+    <g><rect x="512" y="262" width="72" height="30" rx="6" fill="#8b98a9" fill-opacity="0.12" stroke="#8b98a9" stroke-width="1"/><text x="528" y="282" fill="#cdd5df">CAP</text></g>
+    <g><rect x="598" y="262" width="150" height="30" rx="6" fill="#ffd166" fill-opacity="0.1" stroke="#ffd166" stroke-width="1"/><text x="614" y="282" fill="#ffe9a3">RED TEAM</text></g>
   </g>
 
-  <text x="70" y="340" font-family="'Courier New', Courier, monospace" font-size="16" fill="#39414f">// root@astute72  ~  $  securing the web, responsibly</text>
-  <text x="1130" y="340" font-family="'Courier New', Courier, monospace" font-size="16" fill="#39414f">EST. MMXXVI</text>
+  <text x="70" y="332" font-family="'Courier New', Courier, monospace" font-size="15" fill="#39414f">// securing the web, responsibly</text>
+  <text x="1130" y="332" font-family="'Courier New', Courier, monospace" font-size="15" fill="#39414f">est. 2026</text>
 </svg>

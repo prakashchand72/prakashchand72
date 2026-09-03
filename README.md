@@ -16,6 +16,14 @@ certs       : OSCP+ · CRTP · CRTA · eJPT · CAP · Certified AI Security & Go
 
 ---
 
+### Selected Work
+
+- **[vk-voice-kit](https://github.com/prakashchand72/vk-voice-kit)** — local, offline voice control for opencode (whisper.cpp + Hammerspoon)
+- **[astute72](https://astute72.vercel.app/)** — personal portal & research notes
+- **[GitHub profile](https://github.com/prakashchand72)** — 40+ public repositories across security tooling & automation
+
+---
+
 ### Toolbox
 
 <p align="center">
