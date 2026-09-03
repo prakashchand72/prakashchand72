@@ -29,6 +29,14 @@ certs       : OSCP+ · CRTP · CRTA · eJPT · CAP · Certified AI Security & Go
 
 ---
 
+### Activity
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=prakashchand72&theme=black-ice&hide_border=true" />
+</p>
+
+---
+
 ### Certifications
 
 - **OSCP+** — Offensive Security Certified Professional Plus
